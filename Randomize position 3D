@@ -1,0 +1,11 @@
+//Random Setup
+seed = thisComp.layer("Controls").effect("Seed")("Slider");
+seedRandom(seed,1);
+
+//Position limits
+posMin = thisComp.layer("Controls").effect("Pos_Min")("3D Point");
+posMax = thisComp.layer("Controls").effect("Pos_Max")("3D Point");
+
+
+//randomize Position
+pos = random(posMin,posMax);
