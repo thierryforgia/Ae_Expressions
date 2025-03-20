@@ -1,0 +1,9 @@
+//Select a variable if the index number is eaven or odd
+
+//Variables
+Var1 = thisComp.layer("Controls").effect("Var1")(slider/color/etc);
+Var2 = thisComp.layer("Controls").effect("Var2")(slider/color/etc);;
+
+//Color Selector
+if(thisLayer.index % 2 == 0)Var1
+	else(Var2);
